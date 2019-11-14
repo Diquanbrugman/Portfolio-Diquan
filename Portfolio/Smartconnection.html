@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Portfolio Diquan Brugman </title>
+	<link rel="stylesheet" type="text/css" href="Smartconnection.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<section id="showcase">				
+		<div class="container">
+			<h1>Portfolio Diquan Brugman</h1>
+			<h3><i> Welkom op mijn portfolio website. Op deze website zal ik alle ervaringen, opdrachten en ontwikkelingen tijdens de minor Smart Industry tonen.</i></h3>
+		</div>
+	</section>
+	<header> 
+		<nav>
+			<ul>						  <li><a href="Index.html">Home</a></li>				  <li class="dropdown">
+				<a href="#" class="dropbtn">Opdrachten</a>
+				<div class="dropdown-content">
+				<a href="Smartstart.html">Smart Start</a>
+  			    <a href="Smartbusiness.html">Smart Business</a>
+				<a href="Smartconnection.html">Smart Connection</a>
+				<a href="Smarttechnology.html">Smart Technology</a>
+				<a href="Project.html">Project ATAG</a>
+				<li><a href="Competenties.html">Competenties</a></li>
+				<li style="float:right"><a href="Contact.html">Over mij</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+
+<div class="container">
+		<section id="hoofdtekst">
+			<h1 style="text-align: center; font-size:30px; color: #333;"><u>Smart Connection</u></h1>
+
+			
+			<button class="collapsible">Week 1: Smart Research Kruispunten</button>
+			<div class="content">
+			  <p> Het eerste college van Smart Start en tevens een van de eerste lessen van de Minor Smart Industry. <br> 
+				 </p>
+			</div>
+			
+			
+			<button class="collapsible">Week 2: Smart Research Smart Industry</button>
+			<div class="content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+			<button class="collapsible">Week 3: Smart Research Value Proposition</button>
+			<div class="content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+			<button class="collapsible">Week 4: Smart Research Processen</button>
+			<div class="content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+			<button class="collapsible">Week 5: Smart Research Organisaties</button>
+			<div class="content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+			<button class="collapsible">Week 6: Smart Research Samenwerken</button>
+			<div class="content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+			
+			<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+			
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.maxHeight){
+				  content.style.maxHeight = null;
+				} else {
+				  content.style.maxHeight = content.scrollHeight + "px";
+				} 
+			  });
+			}
+			</script>
+	
+		</section>
+	</div>
+	
+</body>
+</html>
